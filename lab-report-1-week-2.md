@@ -1,8 +1,11 @@
 # **Remote Access**
 by Alex Tahan
-***
+
+---
+
 In this tutorial, you will learn how to log into a course-specific account on `ieng6`.
-***
+
+---
 
 ## 1. Installing VSCode
 First, you will need to download Visual Studio Code, which is a code editor. VScode can be downloaded [here](https://code.visualstudio.com/). Make sure to download the right version for your computer.
@@ -11,7 +14,8 @@ After installation is complete, open up Visual Studio Code. You should get a win
 
 > ![Image](vscode-startup.png)
 > Initial VScode startup.
-***
+
+---
 
 
 ## 2. Remotely Connecting
@@ -45,7 +49,8 @@ To log out of the server, use *Ctrl-D* or `exit`.
 
 > ![Image](lab1pic3.png) 
 > Test out some commands on the server.
-***
+
+---
 
 ## 4. Moving Files with `scp`
 One important part of working on a remote server is the ability to copy files from your computer to the server. From the *client* terminal (not logged in to the server), use the command `scp` to copy files to the server. 
@@ -75,7 +80,8 @@ Now, run `WhereAmI.java` on the *server* using `javac` and `java`. You should se
 > ![Image](lab1pic4.png)
 > Server:
 > ![Image](lab1pic5.png)
-***
+
+---
 
 ## 5. Setting an SSH Key
 As you might have noticed by now, the process of logging in to the server every time you run `ssh` or `scp` can be quite tedious and time consuming. 
@@ -121,7 +127,8 @@ $ scp <public key location> cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 > ![Image](lab1pic6.png)
 > Logging in to the server no longer requires a password after adding the `ssh` key.
-***
+
+---
 
 ## 6. Optimizing Remote Running
 There are some shortcuts for running commands.
@@ -130,4 +137,5 @@ There are some shortcuts for running commands.
 - The up arrow key will recall the last command that was run.
 > ![Image](lab1pic7.png)
 > Using some of the shortcuts saves time.
-***
+
+---
