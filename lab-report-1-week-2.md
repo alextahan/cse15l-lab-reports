@@ -34,7 +34,8 @@ You'll get a message about the authenticity of host can't be established, type `
 > There will be information about the server and which host you are currently connected to.
 
 Now your terminal is connected to a remote computer! Your computer is considered the *client* and the remote computer is called the *server*.
-***
+
+---
 
 ## 3. Trying Some Commands
 You can get used to the server by typing some commands.
