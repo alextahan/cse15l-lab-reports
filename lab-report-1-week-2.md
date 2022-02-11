@@ -12,7 +12,7 @@ First, you will need to download Visual Studio Code, which is a code editor. VSc
 
 After installation is complete, open up Visual Studio Code. You should get a window that looks like this: 
 
-> ![Image](vscode-startup.png)
+> ![Image](lab-1-pics/vscode-startup.png)
 > Initial VScode startup.
 
 ---
@@ -30,7 +30,7 @@ Open the Terminal in VScode (Terminal -> New Terminal) and type the following co
 $ ssh cs15lwi22___@ieng6.ucsd.edu
 ```
 You'll get a message about the authenticity of host can't be established, type `yes`. Once you enter your password, you will see a screen like this: 
-> ![Image](lab1pic2.png) 
+> ![Image](lab-1-pics/lab1pic2.png) 
 > There will be information about the server and which host you are currently connected to.
 
 Now your terminal is connected to a remote computer! Your computer is considered the *client* and the remote computer is called the *server*.
@@ -48,7 +48,7 @@ You can get used to the server by typing some commands.
 
 To log out of the server, use *Ctrl-D* or `exit`.
 
-> ![Image](lab1pic3.png) 
+> ![Image](lab-1-pics/lab1pic3.png) 
 > Test out some commands on the server.
 
 ---
@@ -78,9 +78,9 @@ Afterwards, log back into `ieng6` and use `ls`. You should be able to see `Where
 Now, run `WhereAmI.java` on the *server* using `javac` and `java`. You should see a different output from when you ran it on your computer!
 
 > Client: 
-> ![Image](lab1pic4.png)
+> ![Image](lab-1-pics/lab1pic4.png)
 > Server:
-> ![Image](lab1pic5.png)
+> ![Image](lab-1-pics/lab1pic5.png)
 
 ---
 
@@ -126,7 +126,7 @@ $ <logout>
 # back on client
 $ scp <public key location> cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-> ![Image](lab1pic6.png)
+> ![Image](lab-1-pics/lab1pic6.png)
 > Logging in to the server no longer requires a password after adding the `ssh` key.
 
 ---
@@ -136,7 +136,7 @@ There are some shortcuts for running commands.
 - Writing a command in quotes after an `ssh` command will run it directly on the server and then exit. 
 - You can use semicolons to write multiple commands on the same line.
 - The up arrow key will recall the last command that was run.
-> ![Image](lab1pic7.png)
+> ![Image](lab-1-pics/lab1pic7.png)
 > Using some of the shortcuts saves time.
 
 ---
