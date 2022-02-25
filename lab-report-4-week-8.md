@@ -9,17 +9,17 @@ The markdown-parse implementation I reviewed: [https://github.com/AchuthKrishna/
 
 ---
 
-Using the VScode preview, [Snippet 1]() should have the links
+Using the VScode preview, [Snippet 1](https://github.com/alextahan/markdown-parse/blob/main/test-lab-1.md) should have the links
 ```
 [ "`google.com" , "google.com" , "ucsd.edu" ]
 ```
 
-[Snippet 2]() should have the links 
+[Snippet 2](https://github.com/alextahan/markdown-parse/blob/main/test-lab-2.md) should have the links 
 ```
 [ "a.com" , "a.com(())" , "example.com" ]
 ```
 
-And [Snippet 3]() should have the links
+And [Snippet 3](https://github.com/alextahan/markdown-parse/blob/main/test-lab-3.md) should have the links
 ```
 [ "https://ucsd-cse15l-w22.github.io/" ]
 ```
@@ -55,7 +55,7 @@ In order to pass this test, a larger code change would probably be needed. A met
 
 For the third code snippet (labeled `testlab3` in the output), the actual output included a large amount of text from the file, instead of `https://ucsd-cse15l-w22.github.io/`.
 
-In order to account for new lines, this would likely be a small change of searching for `\n\n` (a line break) within the brackets or parentheses. 
+In order to account for new lines, this would likely be a small change of searching for `\n\n` (a line break) within the brackets or parentheses. This would be similar to how the code checks for a space or period in the link.
 
 ---
 
